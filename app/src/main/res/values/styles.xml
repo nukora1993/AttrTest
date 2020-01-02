@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+<!--引用自定义style-->
+        <item name="custom_style">@style/custom_theme</item>
+
+        <item name="custom_color1">#ff444444</item>
+        <item name="custom_color2">#ff444444</item>
+        <item name="custom_color3">#ff444444</item>
+        <item name="custom_color4">#ff444444</item>
+        <item name="custom_color5">#ff444444</item>
+
+
+
+    </style>
+
+
+<!--自定义style,和自定义的default_style和自定义的myStyle均冲突-->
+    <style name="custom_theme">
+        <item name="custom_color1">#ff222222</item>
+        <item name="custom_color2">#ff222222</item>
+        <item name="custom_color3">#ff222222</item>
+    </style>
+
+<!--自定义style,-->
+    <style name="myStyle">
+        <item name="custom_color1">#ff111111</item>
+        <item name="custom_color2">#ff111111</item>
+    </style>
+
+
+
+</resources>
