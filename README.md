@@ -19,7 +19,7 @@ attrs:要获取的那些attr的id，是一个数组，传入R.styleable或者int
 
 defStyleAttr:当前theme中通过一个reference引用的style就是defStyleAttr，注意这个是一个id，需要指定该id
 
-defStyleRes:当defStyleAttr为0时，或者theme中不存在第三个参数指定的style时，可以通过指定该style id作为默认的属性值
+defStyleRes:当defStyleAttr为0时，或者theme中不存在第三个参数指定的style时，可以通过指定该style id作为默认的属性值(但是测试发现如果defStyleAttr不为0，但是theme中不存在，也不会去从defStyleRes找)
 
 ## 其他几个方法重载
 
