@@ -18,7 +18,8 @@ set:通过xml直接定义的属性或者通过定义style间接的属性
 attrs:要获取的那些attr的id，是一个数组，传入R.styleable或者int[]{attr1,attr2...}
 
 defStyleAttr:当前theme中通过一个reference引用的style就是defStyleAttr，注意这个是一个id，需要指定该id
-当defStyleAttr为0时，或者theme中不存在第三个参数指定的style时，可以通过指定该style id作为默认的属性值
+
+defStyleRes:当defStyleAttr为0时，或者theme中不存在第三个参数指定的style时，可以通过指定该style id作为默认的属性值
 
 ## 其他几个方法重载
 
